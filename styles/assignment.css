@@ -1,0 +1,33 @@
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.Fitness {
+    color: rgba(230, 83, 60, 1);
+    font-style: italic;
+    font-weight: 800;
+    font-size: 2.25rem;
+
+}
+.nav-list {
+    font-size: 1.125rem;
+    align-items: center;
+    border-radius: 39px 39px;
+    border: 1px solid black;
+    padding: 2px 3px;
+    padding-right: 20px;
+    
+}
+#home {
+    padding:8px 20px;
+    background-color: aqua;
+    border-radius: 46px;
+}
+.nav-list-item {
+    color: black;
+}

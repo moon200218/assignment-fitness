@@ -1,10 +1,15 @@
 /* Responsive section start */
 
 @media screen and (max-width: 576px) {
-    nav, .header-container {
-        margin-left: 20px;
+
+    /* Hero responsive section ---------------------- */
+
+    nav,
+    .header-container {
+        margin-left: 10px;
 
     }
+
     .Fitness {
         margin-top: 50px;
         margin-bottom: 50px;
@@ -31,16 +36,19 @@
         margin-top: 0px;
 
     }
+
     .header-content-heading {
         font-size: 2.25rem;
         /* font-weight: 800; */
     }
+
     .header-content-paragraph {
         margin-top: 40px;
         width: 80%;
+        line-height: 120%;
 
     }
-    
+
     .header-button-container {
         display: flex;
     }
@@ -59,17 +67,43 @@
         margin-right: 10px;
         background-color: rgba(230, 83, 60, 1);
         border: none;
-        
+
     }
+
     .badge-one {
         bottom: 270px;
         left: 25px;
     }
+
     .badge-two {
         top: 30px;
         right: 20px;
         padding: 15px 15px;
     }
+
+    /* Change Habits responsive section ------------- */
+    .change-habits-heading {
+        padding-top: 10px;
+
+    }
+    .change-habits-title {
+        font-size: 2rem;
+    }
+
+    .change-habits-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+ 
+    .change-habits-item-text {
+        margin: 0 auto;
+        width: 60%;
+    }
+    .change-habits-paragraph {
+        line-height: 190%;
+    }
+
+
 
 
 }

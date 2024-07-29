@@ -1,12 +1,11 @@
 
 body {
-    margin-top: 0px;
     margin: 0px;
 }
 /* Hero section start -------------------------------------------*/
 .hero-section {
     background-image: linear-gradient(to bottom, rgba(17, 17, 17, 1), rgba(34, 34, 34, 1), rgba(17, 17, 17, 1));
-    margin-top: 0px;
+
 
 }
 
@@ -93,6 +92,7 @@ nav {
 
 .header-button-container {
     margin-top: 40px;
+
 }
 
 .header-button {

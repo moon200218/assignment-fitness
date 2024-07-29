@@ -5,6 +5,10 @@
         margin-left: 20px;
 
     }
+    .Fitness {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 
 
     .hero-section {
@@ -18,7 +22,7 @@
 
     .header-container {
         flex-direction: column;
-        gap: 50px
+        gap: 40px
     }
 
     .header-content {
@@ -29,19 +33,20 @@
     }
     .header-content-heading {
         font-size: 2.25rem;
+        /* font-weight: 800; */
     }
     .header-content-paragraph {
+        margin-top: 40px;
         width: 80%;
 
     }
     
     .header-button-container {
-        margin-top: 25px;
         display: flex;
     }
 
     .header-button {
-        padding: 14px 35px;
+        padding: 10px 30px;
     }
 
     #header-button-orange {

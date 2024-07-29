@@ -6,49 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness</title>
     <link rel="stylesheet" href="styles/assignment.css">
+    <link rel="stylesheet" href="styles/assignment-fonts.css">
+    <link rel="stylesheet" href="styles/assignment-responsive.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&display=swap');
+
     </style>
 
 </head>
 
 <body class="inter-normal">
+    <!-- Header/Hero Section Start.... ------------  -->
     <header class="hero-section">
 
-        <nav
-            style="display: flex; max-width: 1060px; margin: 0 auto; justify-content: space-between; align-items: center;">
+        <nav>
             <h3 class="Fitness">Fitness</h3>
-            <ul style="display: flex; list-style: none;" class="nav-list">
+            <ul class="nav-list">
                 <li class="nav-list-item" id="home">Home</li>
-                <li style="margin-left: 50px;" class="nav-list-item">Service</li>
-                <li style="margin-left: 50px;" class="nav-list-item">Contact</li>
-                <li style="margin-left: 50px;" class="nav-list-item">About</li>
+                <li class="nav-list-item">Service</li>
+                <li class="nav-list-item">Contact</li>
+                <li class="nav-list-item">About</li>
             </ul>
 
         </nav>
-        <div style="display: flex; max-width: 1060px; margin: 0 auto; gap: 150px;">
-            <div class="header-content" style="margin-top: 96px; width: 50%;">
+        <div class="header-container">
+            <div class="header-content">
                 <h2 class="header-content-heading">Get Body in <br> <span id="shape"
                         class="dancing-script-normal">shape</span> & stay <br> healthy</h2>
                 <p class="header-content-paragraph">A huge selection of health and fitness content, healthy recipes and
                     transformation stories to help you get fit and stay fit!</p>
 
-                <div style="margin-top: 40px;">
+                <div class="header-button-container">
                     <button id="header-button-orange" class="header-button">Join Club Now!</button>
+
+                    <button id="header-button-orange-responsive" class="header-button">Join Now!</button>
+                    
                     <button class="header-button">Download App</button>
+                    
                 </div>
 
 
             </div>
 
-            <div class="header-image" style="position: relative;">
-                <img src="images/images 2.png" style="width: 100%;">
-                <button class="badge-one">
+            <div class="header-image-container">
+                <img id="header-image" src="images/images 2.png" alt="image of body builder holding weights">
+
+                <button class="badge badge-one">
 
                     <span class="dot"></span>
-                    <div style="display: flex; flex-direction: column; gap: 5px;">
+                    <div class="badge-one-text">
                         <span style="text-align:left;font-weight: 900;font-size: 1.5rem; color: white; font-size: 1.25rem;">350+</span><span style="color: rgba(239, 237, 232, 0.65);">video tutorial</span>
+                    </div>
+
+                </button>
+
+                <button class="badge badge-two">
+                    <div class="badge-two-text">
+                        <span style="text-align:left; font-weight: 900;color: white; font-size: 2.5rem;">500+</span><span style="color: rgba(239, 237, 232, 0.65); font-size: 0.8125rem;">Free Workout videos</span>
                     </div>
 
                 </button>
@@ -58,6 +73,7 @@
 
 
     </header>
+    <!-- ....End Header/Hero Section ------------   -->
 
 </body>
 

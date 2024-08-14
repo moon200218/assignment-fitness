@@ -481,7 +481,35 @@ input::placeholder {
 
 .trainer-one {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/trainer1.png');
+    background-position: center;
 }
+
+.trainer-two {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/trainer2.png');
+    background-position: center;
+}
+
+.trainer-three {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/trainer3.png');
+
+}
+
+.trainer-four {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/trainer4.png');
+    background-position: center;
+
+}
+
+.trainer-five {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/trainer5.png');
+    background-position: center;
+}
+
+.trainer-six {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/trainer6.png');
+
+}
+
 
 .member-detail {
     position: absolute;

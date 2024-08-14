@@ -86,6 +86,7 @@
         padding-top: 10px;
 
     }
+
     .change-habits-title {
         font-size: 2rem;
     }
@@ -95,16 +96,18 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 30px;
     }
- 
+
     .change-habits-item-text {
         margin: 0 auto;
         width: 60%;
     }
+
     .change-habits-paragraph {
         line-height: 190%;
     }
+
     /* Run extra section */
-    
+
     .run-extra-section {
         padding: 50px 30px;
     }
@@ -115,6 +118,7 @@
         gap: 30px;
 
     }
+
     #run-extra-box-paragraph {
         margin-bottom: 20px;
     }
@@ -122,6 +126,7 @@
     #run-extra-box-button {
         width: 100%;
     }
+
     .run-extra-image-container {
         width: 100%;
         height: 200px;
@@ -138,11 +143,13 @@
         width: 100%;
 
     }
+
     /* BMI section */
     .bmi-box {
         max-width: 90%;
         margin: 0 auto;
     }
+
     .bmi-heading {
         padding-top: 0;
     }
@@ -159,11 +166,13 @@
         margin: 0 auto;
         padding-left: 0;
         padding-bottom: 50px;
-    
+
     }
+
     .bmi-calculator-title {
         font-size: 1rem;
     }
+
     .bmi-calculator-paragraph {
         width: 100%;
     }
@@ -174,12 +183,13 @@
         gap: 10px;
     }
 
-    .form-options select, .form-options input {
+    .form-options select,
+    .form-options input {
         width: 100%;
         box-sizing: border-box;
         padding: 20px 10px;
     }
-    
+
     /* meet team responsive */
     .meet-team-heading {
         padding-top: 60px;
@@ -198,13 +208,18 @@
     /* End section responsive */
 
     .end-section-container {
-        width: 100%;
+        
         flex-direction: column;
     }
 
-    .end-section-title, .end-section-paragraph, .get-started, .more-for-you {
-        margin-left: 10px
+    .end-section-title,
+    .end-section-paragraph,
+    .get-started,
+    .more-for-you {
+        margin-left: 10px;
+        width: 70%;
     }
+
     .footer-rights hr {
         margin-left: 10px;
         width: 90%;

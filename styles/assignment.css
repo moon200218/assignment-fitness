@@ -287,7 +287,6 @@ nav {
 
 
 }
-
 .run-extra-image-container {
     width: 366px;
     height: 312px;
@@ -303,12 +302,108 @@ nav {
      /* width: 100%; */
 }
 
+/* .............................Run Extra section end  */
+.bmi-section {
+    background-color: black;
+}
+.bmi-heading {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding-top: 90px;
+
+}
+.bmi-box {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.bmi-title {
+    color: white;
+    font-weight: 900;
+    font-size: 3rem;
+}
+.bmi-paragraph {
+    /* max-width: 70%; */
+    margin: 20px auto;
+    font-size: 0.875rem;
+    line-height: 190%;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.bmi-calculator-section {
+    background-color: rgba(34, 34, 34, 1);
+    /* padding-top: 90px; */
+
+}
+
+.bmi-calculator {
+    max-width: 1060px;
+    margin: 50px auto;
+    padding-left: 250px;
+    padding-bottom: 50px;
 
 
 
+}
+
+#bmi-calculator-title {
+
+    color: white;
+    font-weight: 900;
+    font-size: 1.75rem;
+    padding-top: 49px;
+    margin-bottom: 15px;
+
+}
+.bmi-calculator-paragraph {
+    width: 50%;
+    font-size: 0.875rem;
+    line-height: 190%;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.bmi-calculator-form {
+    margin-top: 20px;
+}
+
+.form-options {
+    max-width: 80%;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.form-options select, .form-options input {
+    font-size: 1rem;
+    font-family: inherit;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 16px;
+    border-radius: 8px;
+    border: none;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#activity-factor {
+    grid-column: span 2;
+}
+
+#bmi-button {
+    margin-top: 30px;
+    background-color: rgba(230, 83, 60, 1);
+    border: none;
+    padding: 14px 65px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    
 
 
-
+}
 
 
 

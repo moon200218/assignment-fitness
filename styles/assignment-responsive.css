@@ -190,13 +190,19 @@
         max-width: 90%;
         grid-template-columns: repeat(1, 1fr);
     }
+
     .trainer {
         margin: 0 auto;
     }
 
+    /* End section responsive */
 
+    .end-section-container {
+        width: 100%;
+        flex-direction: column;
+    }
 
-
-
-
+    .end-section-title, .end-section-paragraph, .get-started, .more-for-you {
+        margin-left: 10px
+    }
 }

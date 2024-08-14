@@ -307,6 +307,7 @@ nav {
 /* Bmi section start */
 .bmi-section {
     background-color: black;
+    
 }
 .bmi-heading {
     max-width: 1060px;
@@ -314,8 +315,10 @@ nav {
     padding-top: 90px;
 
 }
+/* bmi title brought to center to look better as I did not do challenge part and table is missing */
 .bmi-box {
-    max-width: 70%;
+    text-align: center;
+    max-width: 60%;
     margin: 0 auto;
 }
 
@@ -341,7 +344,7 @@ nav {
 
 .bmi-calculator {
     max-width: 1060px;
-    padding-left: 250px;
+    margin: 0 auto;
     padding-bottom: 50px;
 }
 
@@ -405,6 +408,7 @@ input::placeholder {
 /* Meet team section start */
 .meet-team-section {
     background-color: black; 
+    padding-bottom: 50px;
 }
 
 .meet-team-heading {
@@ -452,6 +456,10 @@ input::placeholder {
     
 }
 
+.trainer-one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/trainer1.png');
+}
+
 .member-detail {
     position: absolute;
     top: 210px;
@@ -467,4 +475,77 @@ input::placeholder {
 .member-title {
     font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
+}
+/* meet team end  */
+
+/* footer */
+.end-section {
+    padding-bottom: 50px;
+    background-color: rgb(25, 25, 25);
+}
+.end-section-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1060px;
+    gap: 10px;
+    margin: 0 auto;
+
+}
+
+.end-section-title {
+    max-width: 40%;
+    margin: 20px 0px;
+    color: rgba(230, 83, 60, 1);
+    font-style: italic;
+    font-weight:800;
+    font-size: 4.375rem;
+}
+
+.end-section-paragraph {
+    max-width: 80%;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 190%;
+    font-size: 0.875rem;
+    margin-bottom: 10px;
+
+}
+.get-started {
+    /* background-color: aquamarine; */
+    width: 40%;
+}
+.more-for-you {
+    /* background-color: antiquewhite; */
+    width: 40%;
+}
+
+.end-section h2 {
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.end-section ul{
+    list-style: none;
+    padding: 0;
+}
+
+.end-section ul li {
+    font-size: 1.05rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 20px 0;
+}
+.footer-rights {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.footer-rights hr {
+    margin: 30px 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+#rights {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.125rem;
 }

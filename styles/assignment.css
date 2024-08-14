@@ -303,6 +303,8 @@ nav {
 }
 
 /* .............................Run Extra section end  */
+
+/* Bmi section start */
 .bmi-section {
     background-color: black;
 }
@@ -339,12 +341,8 @@ nav {
 
 .bmi-calculator {
     max-width: 1060px;
-    margin: 50px auto;
     padding-left: 250px;
     padding-bottom: 50px;
-
-
-
 }
 
 #bmi-calculator-title {
@@ -371,7 +369,7 @@ nav {
     max-width: 80%;
     
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
 
@@ -400,10 +398,73 @@ input::placeholder {
     padding: 14px 65px;
     font-weight: 600;
     font-size: 1.125rem;
-    
-
 
 }
+/* bmi section end */
 
+/* Meet team section start */
+.meet-team-section {
+    background-color: black; 
+}
 
+.meet-team-heading {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding-top: 90px;
+    text-align: center;
+}
 
+.meet-team-title {
+    color: white;
+    font-weight: 900;
+    font-size: 3rem;
+}
+.meet-team-paragraph {
+    max-width: 60%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 0.875rem;
+    line-height: 190%;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.meet-team-container {
+    max-width: 1060px;
+    margin: 0px auto;
+    padding: 15px 15px;
+    background-color: rgba(34, 34, 34, 1);
+    border: none;
+    border-radius: 18px;
+    background-color:rgba(255, 255, 255, 0.1);
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.trainer {
+    position: relative;
+    background-size: cover;
+    width: 336px;
+    height: 272px;
+    border: none;
+    border-radius: 8px;
+    
+}
+
+.member-detail {
+    position: absolute;
+    top: 210px;
+    left: 15px;
+}
+
+.member-name {
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 900;
+}
+
+.member-title {
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+}

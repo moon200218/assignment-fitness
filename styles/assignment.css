@@ -11,7 +11,7 @@
 }
 
 nav {
-    
+
     display: flex;
     max-width: 1060px;
     margin: 0 auto;
@@ -167,8 +167,9 @@ nav {
     top: 130px;
     right: -50px;
 }
+
 .badge-one-text {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     gap: 5px;
 }
@@ -183,12 +184,14 @@ nav {
 .change-habits-section {
     background-color: black;
 }
+
 .change-habits-heading {
     max-width: 1060px;
     margin: 0 auto;
     padding-top: 90px;
     text-align: center;
 }
+
 .change-habits-container {
     max-width: 1060px;
     margin: 0 auto;
@@ -197,11 +200,13 @@ nav {
     gap: 90px;
 
 }
+
 .change-habits-title {
     color: white;
     font-weight: 900;
     font-size: 3rem;
 }
+
 .change-habits-paragraph {
     max-width: 70%;
     margin: 20px auto;
@@ -210,10 +215,12 @@ nav {
     color: rgba(255, 255, 255, 0.5);
 
 }
+
 .change-habits-item {
     /* background-color: aqua; */
     text-align: center;
 }
+
 .change-habits-image {
     margin-top: 10px;
     width: 190px;
@@ -229,6 +236,7 @@ nav {
     color: white;
 
 }
+
 .change-habits-item-text {
     margin-top: 0px;
     font-size: 0.775rem;
@@ -242,9 +250,10 @@ nav {
     /* margin-top: 50px; */
     background-color: black;
     padding-top: 100px;
-    
+
 
 }
+
 .run-extra-container {
     max-width: 1060px;
     margin: 0px auto;
@@ -258,6 +267,7 @@ nav {
     border-radius: 18px;
 
 }
+
 .run-extra-box {
     /* background-color: red; */
     width: 40%;
@@ -277,16 +287,18 @@ nav {
     line-height: 150%;
 
 }
+
 #run-extra-box-button {
     background-color: rgba(230, 83, 60, 1);
     border: none;
     padding: 14px 65px;
     font-weight: 600;
     font-size: 1.125rem;
-    
+
 
 
 }
+
 .run-extra-image-container {
     width: 366px;
     height: 312px;
@@ -295,11 +307,12 @@ nav {
     overflow: hidden;
     /* width: 50%; */
 }
+
 .run-extra-image {
     object-fit: contain;
     object-position: -770px -200px;
-    
-     /* width: 100%; */
+
+    /* width: 100%; */
 }
 
 /* .............................Run Extra section end  */
@@ -307,14 +320,16 @@ nav {
 /* Bmi section start */
 .bmi-section {
     background-color: black;
-    
+
 }
+
 .bmi-heading {
     max-width: 1060px;
     margin: 0 auto;
     padding-top: 90px;
 
 }
+
 /* bmi title brought to center to look better as I did not do challenge part and table is missing */
 .bmi-box {
     text-align: center;
@@ -327,6 +342,7 @@ nav {
     font-weight: 900;
     font-size: 3rem;
 }
+
 .bmi-paragraph {
     /* max-width: 70%; */
     margin: 20px auto;
@@ -357,6 +373,7 @@ nav {
     margin-bottom: 15px;
 
 }
+
 .bmi-calculator-paragraph {
     width: 50%;
     font-size: 0.875rem;
@@ -364,19 +381,21 @@ nav {
     color: rgba(255, 255, 255, 0.5);
 
 }
+
 .bmi-calculator-form {
     margin-top: 20px;
 }
 
 .form-options {
     max-width: 80%;
-    
+
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
 
-.form-options select, .form-options input {
+.form-options select,
+.form-options input {
     font-size: 1rem;
     font-family: inherit;
     color: rgba(255, 255, 255, 0.6);
@@ -403,11 +422,12 @@ input::placeholder {
     font-size: 1.125rem;
 
 }
+
 /* bmi section end */
 
 /* Meet team section start */
 .meet-team-section {
-    background-color: black; 
+    background-color: black;
     padding-bottom: 50px;
 }
 
@@ -423,6 +443,7 @@ input::placeholder {
     font-weight: 900;
     font-size: 3rem;
 }
+
 .meet-team-paragraph {
     max-width: 60%;
     margin: 0 auto;
@@ -433,6 +454,7 @@ input::placeholder {
     color: rgba(255, 255, 255, 0.5);
 
 }
+
 .meet-team-container {
     max-width: 1060px;
     margin: 0px auto;
@@ -440,12 +462,13 @@ input::placeholder {
     background-color: rgba(34, 34, 34, 1);
     border: none;
     border-radius: 18px;
-    background-color:rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     width: 100%;
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
 }
+
 .trainer {
     position: relative;
     background-size: cover;
@@ -453,7 +476,7 @@ input::placeholder {
     height: 272px;
     border: none;
     border-radius: 8px;
-    
+
 }
 
 .trainer-one {
@@ -476,6 +499,7 @@ input::placeholder {
     font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
 }
+
 /* meet team end  */
 
 /* footer */
@@ -483,6 +507,7 @@ input::placeholder {
     padding-bottom: 50px;
     background-color: rgb(25, 25, 25);
 }
+
 .end-section-container {
     display: flex;
     justify-content: space-around;
@@ -497,7 +522,7 @@ input::placeholder {
     margin: 20px 0px;
     color: rgba(230, 83, 60, 1);
     font-style: italic;
-    font-weight:800;
+    font-weight: 800;
     font-size: 4.375rem;
 }
 
@@ -509,10 +534,12 @@ input::placeholder {
     margin-bottom: 10px;
 
 }
+
 .get-started {
     /* background-color: aquamarine; */
     width: 40%;
 }
+
 .more-for-you {
     /* background-color: antiquewhite; */
     width: 40%;
@@ -526,7 +553,7 @@ input::placeholder {
     color: white;
 }
 
-.end-section ul{
+.end-section ul {
     list-style: none;
     padding: 0;
 }
@@ -536,14 +563,17 @@ input::placeholder {
     color: rgba(255, 255, 255, 0.5);
     margin: 20px 0;
 }
+
 .footer-rights {
     max-width: 1060px;
     margin: 0 auto;
 }
+
 .footer-rights hr {
     margin: 30px 0;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 #rights {
     margin: 0 auto;
     text-align: center;

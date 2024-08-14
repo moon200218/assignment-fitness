@@ -205,4 +205,8 @@
     .end-section-title, .end-section-paragraph, .get-started, .more-for-you {
         margin-left: 10px
     }
+    .footer-rights hr {
+        margin-left: 10px;
+        width: 90%;
+    }
 }

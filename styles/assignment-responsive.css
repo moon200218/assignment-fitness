@@ -10,6 +10,11 @@
 
     }
 
+    .nav-menu-container {
+        padding-right: 10px;
+        display: block;
+    }
+
     .Fitness {
         margin-top: 50px;
         margin-bottom: 50px;
@@ -208,7 +213,7 @@
     /* End section responsive */
 
     .end-section-container {
-        
+
         flex-direction: column;
     }
 

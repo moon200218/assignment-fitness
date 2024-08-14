@@ -27,7 +27,7 @@
 
     .header-container {
         flex-direction: column;
-        gap: 40px
+        gap: 40px;
     }
 
     .header-content {
@@ -102,6 +102,40 @@
     }
     .change-habits-paragraph {
         line-height: 190%;
+    }
+    
+    .run-extra-section {
+        padding: 100px 30px;
+    }
+
+    .run-extra-container {
+        max-width: 100%;
+        flex-direction: column;
+        gap: 30px;
+
+    }
+    #run-extra-box-paragraph {
+        margin-bottom: 20px;
+    }
+
+    #run-extra-box-button {
+        width: 100%;
+    }
+    .run-extra-image-container {
+        width: 100%;
+        height: 200px;
+
+    }
+
+    .run-extra-box {
+        width: 100%;
+    }
+
+
+    .run-extra-image {
+        object-position: 0%;
+        width: 100%;
+
     }
 
 
